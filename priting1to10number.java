@@ -10,7 +10,8 @@ static int printnumbers(int n)
 		return 0;
 	}
 	else  {
-		System.out.println(n);
+		//System.out.println(n);
+		System.out.println("Sucess");
 	return printnumbers(n+1);
 }
 }
