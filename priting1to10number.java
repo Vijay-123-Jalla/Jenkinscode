@@ -1,3 +1,4 @@
+package testprogarms;
 public class recrusivetoprint10numbers {
 
 	public static void main(String[] args) {
@@ -10,8 +11,8 @@ static int printnumbers(int n)
 		return 0;
 	}
 	else  {
-		//System.out.println(n);
-		System.out.println("recrusivetoprint10numbers");
+		System.out.println(n);
+		//System.out.println("recrusivetoprint10numbers");
 	return printnumbers(n+1);
 }
 }
