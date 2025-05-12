@@ -11,7 +11,7 @@ static int printnumbers(int n)
 	}
 	else  {
 		//System.out.println(n);
-		System.out.println("Sucess");
+		System.out.println("recrusivetoprint10numbers");
 	return printnumbers(n+1);
 }
 }
